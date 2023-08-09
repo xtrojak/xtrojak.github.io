@@ -1,12 +1,8 @@
 ---
-layout: post
+layout: page
+permalink: /travelling/bucharest-2022
 title: CMSB 2022, Bucharest, Romania
 ---
-
-| Event | International Conference on Computational Methods in Systems Biology ([CMSB 2022](https://fmi.unibuc.ro/en/cmsb-2022/)) |
-| Date | 13.9.2022 - 17.9.2022                                                                                                   |
-| Location | Bucharest, Romania                                                                                                      |
-| Goal | presentation of [eBCSgen 2.0](https://www.fi.muni.cz/~xtrojak/files/presentations/cmsb2022.pdf)                         |
 
 This year in September, I participated in the 20th International Conference on Computational Methods in Systems Biology ([CMSB 2022](https://fmi.unibuc.ro/en/cmsb-2022/)) at the Faculty of Biology, University of Bucharest, Romania. I had a [presentation](https://www.fi.muni.cz/~xtrojak/files/presentations/cmsb2022.pdf) about our contribution _eBCSgen 2.0: Modelling and Analysis of Regulated Rule-based Systems_.
 

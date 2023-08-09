@@ -20,8 +20,6 @@ author:
 github:
   repo:         xtrojak
 
-paginate:         5
-plugins: [jekyll-paginate]
 # Custom vars
 version:
 remote_theme: fongandrew/hydeout
