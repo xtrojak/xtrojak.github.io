@@ -1,0 +1,48 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ "/" | relative_url }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+	    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}"><i class="fa fa-home" aria-hidden="true"></i >  Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            {% if node.title == "Projects" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><i class="fa fa-flask" aria-hidden="true"></i> {{ node.title }}</a>
+            {% elsif node.title == "Travelling" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><i class="fa fa-user-o" aria-hidden="true"></i> {{ node.title }}</a>
+            {% elsif node.title == "Publications" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><i class="fa fa-book" aria-hidden="true"></i> {{ node.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <br/>
+
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <a style="flex: 1; text-align: center;" href="http://github.com/xtrojak" target="_blank" class="social-link-item"><i class="fa fa-brands fa-github"></i></a>
+        <a style="flex: 1; text-align: center;" href="https://stackoverflow.com/users/7388106/matho" target="_blank" class="social-link-item"><i class="ai ai-stackoverflow-square ai-1x"></i></a>
+        <a style="flex: 1; text-align: center;" href="https://www.linkedin.com/in/matej-troj%C3%A1k-3b1229179" target="_blank" class="social-link-item"><i class="fa fa-brands fa-linkedin"></i></a>
+        <a style="flex: 1; text-align: center;" href="https://www.facebook.com/mato.trojak" target="_blank" class="social-link-item"><i class="fa fa-brands fa-facebook"></i></a>
+        <a style="flex: 1; text-align: center;" href="mailto:mato.trojak@gmail.com" target="_blank" class="social-link-item"><i class="fa fa-solid fa-envelope"></i></a>
+      </div>
+    </nav>
+
+    <p><font size="3">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</font></p>
+  </div>
+</div>
