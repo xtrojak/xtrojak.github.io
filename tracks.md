@@ -13,7 +13,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><div class="tabs"><a href="/files/tracks/images/custom01.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom01.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></div></th>
+        <th><a href="/files/tracks/images/custom01.png" target="_blank">Show tabs</a></th>
     </tr>
     <tr>
         <th>Track 02</th>
@@ -23,7 +23,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom02.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom02.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom02.png" target="_blank">Show tabs</a></th>
     </tr>
     <tr>
         <th>Track 03</th>
@@ -33,7 +33,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom03.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom03.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom03.png" target="_blank">Show tabs</a></th>
     </tr><tr>
         <th>Track 04</th>
         <th>
@@ -42,7 +42,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom04.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom04.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom04.png" target="_blank">Show tabs</a></th>
     </tr><tr>
         <th>Track 05</th>
         <th>
@@ -51,7 +51,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom05.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom05.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom05.png" target="_blank">Show tabs</a></th>
     </tr><tr>
         <th>Track 06</th>
         <th>
@@ -60,7 +60,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom06.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom06.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom06.png" target="_blank">Show tabs</a></th>
     </tr><tr>
         <th>Track 07</th>
         <th>
@@ -69,7 +69,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/custom07.png" target="_blank">Tabs</a><a href="/files/tracks/images/custom07.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/custom07.png" target="_blank">Show tabs</a></th>
     </tr><tr>
         <th>Fear of the Dark</th>
         <th>
@@ -78,7 +78,7 @@ title: Example tracks
             Your browser does not support the audio element.
             </audio>
         </th>
-        <th><a href="/files/tracks/images/dark.png" target="_blank">Tabs</a><a href="/files/tracks/images/dark.png" target="_blank"><img class="new_tab" src="/images/new-tab.png"></a></th>
+        <th><a href="/files/tracks/images/dark.png" target="_blank">Show tabs</a></th>
     </tr>
     </table>
 </div>
