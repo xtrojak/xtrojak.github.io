@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /travelling/bucharest-2022
+permalink: /travelling/bucharest-romania-2022
 title: CMSB 2022, Bucharest, Romania
 ---
 
