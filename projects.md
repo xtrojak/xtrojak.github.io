@@ -41,4 +41,4 @@ TonesVisual
 GuitarTabs
 ----------
 
-[GuitarTabs](/https://github.com/xtrojak/GuitarTabs) is a web-based tool for guitar tabs visualisation available [online here](http://guitartabs.westeurope.cloudapp.azure.com:5000/). A simple graphical user interface allows the user to enter the tabs in a simple language (designed for this purpose and formally defined by grammar). This way, the entering of the tabs is independent of any graphical tools, which often leads to many mistakes but is based purely on text input. <a href="/tracks">Library of example tracks</a>
+[GuitarTabs](/https://github.com/xtrojak/GuitarTabs) is a web-based tool for guitar tabs visualisation. A simple graphical user interface allows the user to enter the tabs in a simple language (designed for this purpose and formally defined by grammar). This way, the entering of the tabs is independent of any graphical tools, which often leads to many mistakes but is based purely on text input. <a href="/tracks">Library of example tracks</a>
