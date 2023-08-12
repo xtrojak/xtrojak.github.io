@@ -3,6 +3,16 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/bergen-norway-2023">TREC expedition 2023, Bergen, Norway</a>
+
+| Event | [TREC](https://www.embl.org/about/info/trec/) - an expedition to study coastal ecosystems                               |
+| Dates | 5.8.2023 - 10.8.2023                                                                                                    |
+| Location | Bergen, Norway                                                                                                       |
+| Goal | experience sampling procedure as an initial step for my new job position                                                 |
+| Language | Slovak |
+
+---
+
 ## <a href="/travelling/stockholm-sweden-2023">Stockholm 2023, Sweden</a>
 
 | Event | a trip with my friend                                                                                                    |
