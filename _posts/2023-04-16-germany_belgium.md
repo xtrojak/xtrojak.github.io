@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /travelling/belgium-germany-2023
-title: Belgicko & Nemecko
+title: Galaxy admin training 2023, Gent, Belgium
 ---
  
 [Zobraziť fotky](https://photos.app.goo.gl/4cipjHcA3Q9HszpDA)
@@ -23,8 +23,6 @@ Galaxy admin training (17.4. - 21.4.)
 -------------------------------------
 
 Nasledujúcich 5 dní vyzeralo veľmi podobne. Vždy ráno som mal hotelové raňajky a potom som šiel na prednášky. Tie trvali približne od desiatej do piatej večer. Plus sme mali vždy pauzu na obed.
-
-
 
 <details style="background-color: #f1f1f1;">
 <summary style="font-weight: bold; color: blue; cursor: pointer;">Poznámky z prednášok (kliknutím zobraziť obsah)</summary>
