@@ -95,7 +95,7 @@ title: Travelling
 
 ## <a href="/travelling/sanaia-romania-2018">ICSTCC 2018, Sanaia, Romania</a>
 
-| Event | International Conference on System Theory, Control and Computing ([ICSTCC 2018](http://www.icstcc.ugal.ro/2018/)         |
+| Event | International Conference on System Theory, Control and Computing ([ICSTCC 2018](http://www.icstcc.ugal.ro/2018/))        |
 | Dates | 9.10.2018 - 13.10.2018                                                                                                   |
 | Location | [CASINO Sinaia](http://www.casino-sinaia.ro/ro/), Sinaia, Romania                                                     |
 | Goal | presentation of [Fully Automated Attractor Analysis of Cyanobacteria Models](/files/presentations/icstcc2018.pdf)         |
@@ -158,7 +158,7 @@ title: Travelling
 | Event | [a SASB workshop](https://www.lri.fr/sasb2015/)                                                                          |
 | Dates | 7.9.2015 - 10.9.2015                                                                                                     |
 | Location | [Palais des congrès Le Grand Large](http://www.pgl-congres.com/), Saint-Malo, France                                  |
-| Goal | presentation of [Biochemical Space](/files/presentations/sasb2017.pdf)                                                    |
+| Goal | presentation of Biochemical Space                                                                                         |
 | Language | Slovak |
 
 ---
