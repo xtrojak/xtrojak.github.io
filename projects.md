@@ -3,6 +3,14 @@ layout: page
 title: Projects
 ---
 
+TREC
+----
+
+<div style="display: flex; align-items: center;">
+    <p style="margin-right: 20px;">TREC (Traversing European Coastlines) is a project to explore the biodiversity and molecular adaptability of microbial communities along the European coastlines. It is driven by the expertise and infrastructure of EMBL and multiple European partners. The goal is to observe, model, and understand the effects of changing environments on organisms and communities at several levels. This is achieved by sampling in parallel different habitats, such as soil, sediment, and shallow and deep water.</p>
+    <img src="https://www.embl.org/about/info/trec/wp-content/uploads/2023/03/20230329_TREC-map-for-web_v2.jpg" alt="Image" style="width: 30%; min-width: 200px; margin-right: 10px;">
+</div>
+
 Comprehensive Modelling Platform
 --------------------------------
 
