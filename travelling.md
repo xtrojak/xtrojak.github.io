@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/luxembourg-2023">CMSB 2023, Luxembourg</a>
+
+| Event | International Conference on Computational Methods in Systems Biology ([CMSB 2023](https://cmsb2023.uni.lu/))            |
+| Dates | 13.9.2023 - 15.9.2023                                                                                                   |
+| Location | Kirchberg Campus, University of Luxembourg, Luxembourg                                                               |
+| Goal | enjoy systems biology community and event full of interesting talks                                                      |
+| Language | Slovak |
+
 ## <a href="/travelling/bergen-norway-2023">TREC expedition 2023, Bergen, Norway</a>
 
 | Event | [TREC](https://www.embl.org/about/info/trec/) - an expedition to study coastal ecosystems                               |
