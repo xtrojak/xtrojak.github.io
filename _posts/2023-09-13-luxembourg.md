@@ -21,7 +21,7 @@ Konferencia bola uvedená pozvanou prednáškou od Philippe Jacques, ktorý rozp
 
 Z ďalších častí dňa by som spomenul prednášku od Joachim Niehren, ktorý hovoril o novom Core SBML s cieľom definovať pre SBML (level 2) formálnu sémantiku. Z prednášky a neskorších diskusií som pochopil jeho cieľ, prečo je dôležité mať formálnu definíciu a prečo nestačí implementácia v nástroji, ktorý používajú modelári (už či je to Copasi, Simmune, Antimony, alebo čokoľvek iné). Čo bolo pre mňa ťažko akceptovateľné bol minimálny kontakt a snaha presadiť výsledky so štandardizačnou komunitou [COMBINE](https://co.mbine.org/).
 
-![conference](https://photos.google.com/share/AF1QipNDPU2Q50lC8KGIeK5GSSddvhzI8Q-cnjNqV-HZhT8UceSVhmzYM8xENy2BUml03g/photo/AF1QipP62A_LmV24J1qYPLnf3qkUWorO21W3nCSCkpE2?key=c0RiVno3UkIyNzJRNlphYTQ5aUN0WjFoc1BTdFVB)
+![conference](https://lh3.googleusercontent.com/pw/ABLVV84LRb3PWxd84oOBagAla9cEHo5DNmFJdElL9ai2uOgx7RO6pGVr_zmDvkU8CKED91gvypDwAQSTIAjeMaQrIbEn-WfHdctckyKdHIhJjOdn635_VQvOt8-jy2xDzdFPR66caJowe4hR8Ylc8Bqz_tAs8g=w1600-h901-s-no-gm)
 
 Dôležitou časťou bola aj prezentácia Evy o phenotype control v booleaovských sieťach. Technicky to bola jej prvá prezentácia "naživo" na konferencii. Mala to naozaj veľmi dobre pripravené a zvládnuté, myslím že téma bola skvele vysvetlená a stihla to super aj časovo, reagovala na otázky vecne a pohoto. Bol užasný zážitok vidieť, ako sa z človeka, ktorý si nebol istý či chce robiť PhD vyvinul človek, ktorý vie čo robí a je expert v danej téme. Sybila môže byť hrdá!
 
