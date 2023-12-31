@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/strasbourg-france-2023">Bork group retreat 2023, Strasbourg</a>
+
+| Event | Bork group retreat                                                                                                      |
+| Dates | 29.11.2023 - 1.12.2023                                                                                                  |
+| Location | BOMA Hotel Strasbourg, France                                                                                        |
+| Goal | group team building                                                                                                      |
+| Language | English |
+
 ## <a href="/travelling/luxembourg-2023">CMSB 2023, Luxembourg</a>
 
 | Event | International Conference on Computational Methods in Systems Biology ([CMSB 2023](https://cmsb2023.uni.lu/))            |
