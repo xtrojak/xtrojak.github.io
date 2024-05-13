@@ -113,7 +113,7 @@ This day was less eventful, I spent the day with Stephane, working on our laptop
 
 Tento deň sme mali voľno, tak sme išli na výlet do Pompei. Dokopy nás bolo osem, a na miesto sme sa dostali vlakom. Trvalo to približne hodinu s hlavnej stanice. Vyznať sa v trochu chaotickom systéme vlakov dalo zabrať, ale zvládli sme to.
 
-![pompei](https://photos.google.com/share/AF1QipOaYQUWM8leLOEzdfh-km-Jbww_ZXD4qYKW8a6OUuDr_9zmCLtCa-hwwMK9EhRebA/photo/AF1QipPkewJIR7EsO5Y5RE8BrgL694qA5IiNzgQy6Q-j?key=d3hnYXVvT0VFeWNyeFBmM2R2Q2RRc3FEbTN3YTdR)
+![pompei](https://lh3.googleusercontent.com/pw/AP1GczPQx5awA17Ym574EvHT1U1M1-z7xENeTPgRC4dPsK6ZgMyJmnwE50C7ke1ktxvjfpYZ_TePoJySxxp-X7mVVLgUIxpaONNKCXBS14LgIIWvrE-kn8lAiaGWn7trjHvtxGLmA-hz-OHmL5p5r2XY82pS8Q=w3420-h1924-s-no?authuser=0)
 
 Keďže sme dorazili až okolo dvanástej, najprv sme išli na obed, samozrejme na pizzu. Každú prvú nedeľu v mesiaci sú vstupy do múzeí a podobných záležitostí zadarmo. To sa týkalo aj Pompeji. My sme si ale zaplatili prehliadku aj so sprievodcom, za tú sa samozrejme platilo.
 
@@ -170,13 +170,13 @@ In the evening we had a nice dinner for everyone. Many small meals, kept coming 
 
 Začala mi dovolenka, na ktorú som sa presunul vlakom do Ríma. Bolo to naozaj blízko, cesta trvala asi len hodinu. Mal som ešte nejaký čas kým som sa mohol ubytovať, tak som využil služby úschovne batožiny. Navštívil som v krátkosti baziliku Papale di Santa Maria Maggiore a dal si chutný obed. Po tom ako som sa ubytoval som sa šiel prejsť na jeden malý kopec, ktorý sľuboval dobrý výhľad na mesto.
 
-![rome_view](https://photos.fife.usercontent.google.com/pw/AP1GczPfX60018C748F6oufzLr2ym6Ygcthlh3V_ikvvZJE7AidUUD1iRXTZDg=w869-h319-no?authuser=0
+![rome_view](https://lh3.googleusercontent.com/pw/AP1GczMRPbAf_exVt5wbUpKnBbU_ekZXTifMFiTnN99Wnrzd5SgPToP4JQcMuATNYPhQYo8g2Gy8egxbGugfF_Ph698zcqLvHHqSEL7pEDF8b2z788gXsN0FOysXQ6KGzn8JjazsnH5ZUGDfmWV61A8AN-g18g=w3420-h1924-s-no?authuser=0)
 
 ## Streda
 
 Na tento deň sa mi podarilo zohnať komentovaný vstup do Vatikánu. Mať sprievodcu malo hneď niekoľko výhod. Tá najlepšia bola, že sa človek vyhol čakaniu v dlhých radoch. Skupiny so sprievodcov mali prioritný vstup na konkrétny čas. My sme boli malá skupinka (asi 10 osôb), dostali sme vysielačky cez ktoré nám sprievodkyňa hovorila históriu a zaujímavosti o Vatikáne kým sme sa v davoch presúvali po dlhých chodbách Vatikánskeho múzea. Vatikán je plný rôznych umeleckých výtvorov od sôch, obrazov, tkaných kobercov, či nástenných a stropných fresiek. Tie dokazujú obrovské bohatstvo, ktoré Vatikán za dlhé roky svojho pôsobenia nazbieralo. 
 
-![vatican](https://photos.fife.usercontent.google.com/pw/AP1GczOJ0xM_v4_DA4QNKIr2Q_wcERVHsk1FdoPN1HjSaBFfORa7aOrsBFs-DQ=w3420-h1924-s-no?authuser=0)
+![vatican](https://lh3.googleusercontent.com/pw/AP1GczMDZbaF-RbQuCT6QqlcjX2tC0qzoBsFMKOaoYgfCK9ThHIs6RyGU-a60lGH0gcvtpBtoyVw0rMgEsgGwxOBTBvcCs2WAJXuRofeyq29XqSKb2_RWAX54NEM1lLCZt5Z1c1b53r6yR31W1A83ycQOK775Q=w3420-h1924-s-no?authuser=0)
 
 Postupne sme sa chodbami dostali do Sixtínskej kaplnky, v ktorej prebiehajú voľby pápeža. Obrovský strop bol pokreslený slávnymi freskami od Michelangela, na ktorých údajne pracoval štyri roky takmer bez prestávky a každý jeden pohyb štetcom urobil vlastnoručne. Samozrejme mal pomoc, ale iba vo veciach ako miešanie farieb či stavanie lešenia na prístup k stropu. Bolo tu prísne zakázané fotiť, lebo keď pred nejakou dobou maľby reštaurovali, tak na ne niekto získal autorské práva. Navyše sa tu hromadilo dosť veľa ľudí a malo tam byť ticho, tak nás ochrankári stále naháňali a posúvali smerom ku východu.
 
