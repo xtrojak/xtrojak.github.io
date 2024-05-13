@@ -3,8 +3,6 @@ layout: page
 permalink: /travelling/naples-rome-2024
 title: TREC expedition Naples & Rome vacation, Italy
 ---
-
-TODO mapa
  
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <h2>TREC naples (1.5. - 7.5.)</h2>

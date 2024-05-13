@@ -275,6 +275,14 @@ title: Travelling
     {
         "id": "SE",
         "showAsSelected": true
+    },
+    {
+        "id": "UK",
+        "showAsSelected": true
+    },
+    {
+        "id": "LU",
+        "showAsSelected": true
     }
     ]
     },
