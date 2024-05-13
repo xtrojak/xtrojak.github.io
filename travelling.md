@@ -277,7 +277,7 @@ title: Travelling
         "showAsSelected": true
     },
     {
-        "id": "UK",
+        "id": "GB",
         "showAsSelected": true
     },
     {
