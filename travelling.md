@@ -6,7 +6,7 @@ title: Travelling
 ## <a href="/travelling/naples-rome-2024">TREC expedition Naples & Rome vacation, Italy</a>
 
 | Event | TREC expedition Naples & Rome vacation                                                                                 |
-| Dates | 29.11.2023 - 1.12.2023                                                                                                 |
+| Dates | 1.5.2024 - 11.5.2024                                                                                                 |
 | Location | Naples & Rome, Italy                                                                                                |
 | Goal | meet with all Trec teams                                                                                                |
 | Language | Slovak/English |
