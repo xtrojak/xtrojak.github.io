@@ -117,7 +117,7 @@ Keďže sme dorazili až okolo dvanástej, najprv sme išli na obed, samozrejme 
 
 Prehliadka trvala asi dve hodiny, mimo iné sme sa dozvedeli, že v meste na jeho vrchole žilo asi 12 tisíc ľudí a bolo to veľmi bohaté mesto. To sa dalo poznať aj do dnes predovšetkým na základe obrovského množstva fresiek po stenách súkromných ale aj verejných budov, na ktoré boli použité veľmi drahé farby tej doby. Mesto bolo v roku 79 A.D. zničené výbuchom sopky Vezuv. Nebolo však priamo zasiahnuté lávou, ale zasypané obrovským množstvom popola (často niekoľko metrové vrstvy). To spôsobilo, že budovy výbuchom reálne zničené neboli a preto sú Pompeje relatívne zachovalé. Ľudské ostatky obetí to však úplne zničilo. Naopak v nedalekom meste Herculaneum boli obete doslova zaliate lávou, čo spôsobilo ich zachovanie do dnes. na druhú stranu to viac zničilo samotné mesto.
 
-TODO foto nas vsetkych od Lucas
+![group](https://lh3.googleusercontent.com/pw/AP1GczPnnRUHP6uuOxIItQfOyWHnm7jau0Hez6-oPnlQ0WAJRjSnZRujqktIiLotYRxcp9_gYfxTtQVvRgZ8R_R4Zz-j2gZ8NNlj6pygMtDffm6kDPk6Xr1mVgcu1_iC1_5ASj9MTppzNxuZ2bn4QTzSJT5OJA=w3994-h2662-s-no?authuser=0)
 
 ## Monday (6.5.) - scientific event
 
