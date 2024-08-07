@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/mallorca-2024">Mallorca, Spain 2024</a>
+
+| Event | Mallorca vacation                                                                                 |
+| Dates | 1.8.2024 - 8.8.2024                                                                                                 |
+| Location | Mallorca, Spain                                                                                                |
+| Goal | have some nice time at the beach                                                                                                |
+| Language | Slovak |
+
 ## <a href="/travelling/naples-rome-2024">TREC expedition Naples & Rome vacation, Italy</a>
 
 | Event | TREC expedition Naples & Rome vacation                                                                                 |
