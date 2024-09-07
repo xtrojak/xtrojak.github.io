@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/cambridge-2024">EBI & Cambridge, UK 2024</a>
+
+| Event | EBI business trip & Cambridge weekend                                                                                 |
+| Dates | 1.9.2024 - 9.9.2024                                                                                                 |
+| Location | Hinxton & Cambridge, UK                                                                                                |
+| Goal | work on Trec metadata curation & enjoy a weekend in Cambridge                                                                                                |
+| Language | Slovak |
+
 ## <a href="/travelling/mallorca-2024">Mallorca, Spain 2024</a>
 
 | Event | Mallorca vacation                                                                                 |
