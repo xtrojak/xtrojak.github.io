@@ -13,7 +13,7 @@ Ubytovaný som bol priamo vo Wellcome Genome kampuse, kde sa EBI nachádza. Sú�
 ![hinxton hall](https://lh3.googleusercontent.com/pw/AP1GczN23Wwh_Jw16deeFk18X_31cp-Lsc3VJ8UVUZD-oHWOSs5esmHetI7NopUxQloZkopdkikSGQj9cqNP5VZZo6kCvyk57pVJ_2l_QpnFKE4H-NxSGbWv1Ozzo0UQwDW0P89iY8SPtG01di0l_sdU2-dZ3w=w3420-h1924-s-no?authuser=0)
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <h2>Cambridge (7.9. a 8.9.)</h2>
+  <h2>Cambridge (7.9.)</h2>
   <p style="margin: 0; font-size: 1em; text-align: right;"><a href="https://photos.app.goo.gl/hgrPG8UJJRNYeSct9">Zobraziť fotky</a></p>
 </div>
 
@@ -56,3 +56,16 @@ The Eagle pub - Watson and Crick sem chodili, je tam aj plaketa. Hneď vedľa je
 Koniec pri Emmanuel's college
 
 Are there university students who are not members of any college? No
+
+daň za okná
+
+## Cambridge (8.9.)
+
+The Centre for Computing history - počítače od prvých po súčasné, hracie konzoly a automaty (arcade), kalkulačky, dierne pásky
+Obed
+University museum of Zoology - vstup zdarma, zachovalé tela a kosti
+St Bene't's Church - najstaršia budova v Cambridge, výrazne nižšie
+Museum of Archaeology and Anthropology - vstup zdrama, rôzne archeologické nálezy, mnohé ale nie miestne, skôr z Afriky a Ameriky
+
+The Fitzwilliam Museum - umenie, znova Grécko, Rím
+Nádvorie Emmanuels college, deň predtým zavreté 
