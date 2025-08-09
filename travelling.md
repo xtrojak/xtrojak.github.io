@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/trondheim-london-2025">Trondheim, Norway & London, UK 2025</a>
+
+| Event | Holidays in the north                                                                                 |
+| Dates | 22.7.2025 - 10.8.2025                                                                                                 |
+| Location | Hinxton & London (UK) and Trondheim (Norway)                                                                                                |
+| Goal | enjoy summer vacation in colder parts of Europe                                                                                                |
+| Language | Slovak |
+
 ## <a href="/travelling/cambridge-2024">EBI & Cambridge, UK 2024</a>
 
 | Event | EBI business trip & Cambridge weekend                                                                                 |
