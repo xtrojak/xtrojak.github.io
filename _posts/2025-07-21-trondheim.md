@@ -24,7 +24,7 @@ Londýn (4.8. - 10.8.2025)
 
 Potom som sa presunul do Anglicka, kde som absolvoval krátku služobnú cestu v EBI blízko Cambridge. Potom som si naplánoval ešte pár dní dovolenky v Londýne.
 
-![view](https://photos.fife.usercontent.google.com/pw/AP1GczN4_V0bmFBPn8yOPcSM_GPS_rUuW9XHe7rH1t-Q0hNT7Odpp_g-sz_6-Q=w3600-h2026-s-no?authuser=0)
+![view](https://lh3.googleusercontent.com/pw/AP1GczNdSOYoKBOTWXYZH6BVdBNDvH3OkcuhG8zvXW56Aw7y401j9gxY_pUSn0jCFrGNMlRKWzlVc8nEJlatHl6ep8ml-HzzEpYLvqasksiM0DLmEoMyQaN_jJ3MV6y7cyH2h2gDRADZw0dmcyK0IwLiJR2txQ=w3600-h2026-s-no?authuser=0)
 
 Tento výlet bol celkom krátky a chcel som sa hlavne trochu zorientovať v Londýne a užiť si výhľady, čo sa mi podarilo. Mimo iné som sa vyviezon na vrchol mrakodrapu do tzv. Sky garden, absolvoval som audio komentovanú pre chádzku historickým centrom ([Historic London: "The City" Walk](https://www.ricksteves.com/watch-read-listen/audio/audio-tours/london)), navštívil Tower bridge, a Britský parlament. Vozil som sa prevažne metrom, ale v ducho celej dovolenky som šiel aj loďou do časti Greenwich a späť.
 
