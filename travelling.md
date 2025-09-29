@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/nemours-paris-2025"> Nemours & Paris, France 2025</a>
+
+| Event | TREC expedition Ecotron                                                                              |
+| Dates | 16.9.2025 - 28.9.2025                                                                                                 |
+| Location | Nemours & Paris (France)                                                                                                |
+| Goal | explore the future of the expedition                                                                                                |
+| Language | Slovak |
+
 ## <a href="/travelling/trondheim-london-2025">Trondheim, Norway & London, UK 2025</a>
 
 | Event | Holidays in the north                                                                                 |
