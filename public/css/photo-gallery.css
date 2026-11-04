@@ -1,0 +1,270 @@
+/*
+ * Reusable photo gallery widget.
+ * Include on posts that use <div class="photo-gallery">…</div>
+ */
+
+:root {
+  --pg-surface: #ffffff;
+  --pg-ink: #515151;
+  --pg-muted: #777777;
+  --pg-line: #e5e5e5;
+  --pg-accent: #268bd2;
+  --pg-stage: #1a1816;
+  --pg-thumb-size: 72px;
+  --pg-radius: 6px;
+  --pg-gap: 0.5rem;
+}
+
+.photo-gallery {
+  margin: 1.25rem 0 1.75rem;
+  background: var(--pg-surface);
+  border: 1px solid var(--pg-line);
+  border-radius: calc(var(--pg-radius) + 2px);
+  overflow: hidden;
+}
+
+.photo-gallery__stage {
+  position: relative;
+  background: var(--pg-stage);
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  overflow: hidden;
+  cursor: zoom-in;
+  user-select: none;
+}
+
+/* Absolute so portrait/landscape never resize the stage */
+.photo-gallery__stage > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+.photo-gallery__nav {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+  padding: 0 0.4rem;
+}
+
+.photo-gallery__btn {
+  pointer-events: auto;
+  appearance: none;
+  border: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.photo-gallery__btn:hover,
+.photo-gallery__btn:focus-visible {
+  background: rgba(255, 255, 255, 0.28);
+  outline: none;
+}
+
+.photo-gallery__btn:active {
+  transform: scale(0.96);
+}
+
+.photo-gallery__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.45rem 0.7rem;
+  color: var(--pg-muted);
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  background: #fafafa;
+  border-top: 1px solid var(--pg-line);
+}
+
+.photo-gallery__expand {
+  appearance: none;
+  border: 1px solid var(--pg-line);
+  background: var(--pg-surface);
+  color: var(--pg-ink);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.photo-gallery__expand:hover,
+.photo-gallery__expand:focus-visible {
+  border-color: var(--pg-accent);
+  color: var(--pg-accent);
+  outline: none;
+}
+
+.photo-gallery__thumbs {
+  display: flex;
+  gap: var(--pg-gap);
+  padding: 0.65rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  background: #fafafa;
+  border-top: 1px solid var(--pg-line);
+}
+
+.photo-gallery__thumb {
+  flex: 0 0 var(--pg-thumb-size);
+  width: var(--pg-thumb-size);
+  height: var(--pg-thumb-size);
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: var(--pg-radius);
+  overflow: hidden;
+  cursor: pointer;
+  background: #ddd;
+  opacity: 0.72;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+
+.photo-gallery__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.photo-gallery__thumb:hover,
+.photo-gallery__thumb:focus-visible {
+  opacity: 1;
+  outline: none;
+}
+
+.photo-gallery__thumb.is-active {
+  opacity: 1;
+  border-color: var(--pg-accent);
+}
+
+/* ——— Fullscreen lightbox ——— */
+.photo-gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(10, 9, 8, 0.94);
+  display: none;
+  flex-direction: column;
+  padding: 0.75rem;
+  color: #fff;
+}
+
+.photo-gallery-lightbox.is-open {
+  display: flex;
+}
+
+.photo-gallery-lightbox__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex: 0 0 auto;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.35rem 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.photo-gallery-lightbox__close {
+  appearance: none;
+  border: 0;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-radius: 999px;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.photo-gallery-lightbox__close:hover,
+.photo-gallery-lightbox__close:focus-visible {
+  background: rgba(255, 255, 255, 0.24);
+  outline: none;
+}
+
+/* flex-basis 0: stage takes leftover space only, never grows from image size */
+.photo-gallery-lightbox__stage {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.photo-gallery-lightbox__stage > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+.photo-gallery-lightbox__nav {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+  padding: 0 0.5rem;
+}
+
+.photo-gallery-lightbox__nav .photo-gallery__btn {
+  pointer-events: auto;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.photo-gallery-lightbox__thumbs {
+  display: flex;
+  gap: var(--pg-gap);
+  flex: 0 0 auto;
+  padding: 0.75rem 0.25rem 0.35rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  justify-content: safe center;
+}
+
+.photo-gallery-lightbox__thumbs .photo-gallery__thumb {
+  border-color: transparent;
+  opacity: 0.55;
+}
+
+.photo-gallery-lightbox__thumbs .photo-gallery__thumb.is-active {
+  opacity: 1;
+  border-color: #fff;
+}
+
+@media (max-width: 560px) {
+  :root {
+    --pg-thumb-size: 60px;
+  }
+
+  .photo-gallery__btn {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
+}
