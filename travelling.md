@@ -3,6 +3,14 @@ layout: page
 title: Travelling
 ---
 
+## <a href="/travelling/rome-2026">Rome, Italy 2026</a>
+
+| Event | Rome vacation                                                                                 |
+| Dates | 31.10.2026 - 26.11.2026                                                                                                 |
+| Location | Rome, Italy                                                                                                |
+| Goal | explore the city                                                                                                |
+| Language | Slovak |
+
 ## <a href="/travelling/nemours-paris-2025"> Nemours & Paris, France 2025</a>
 
 | Event | TREC expedition Ecotron                                                                              |
