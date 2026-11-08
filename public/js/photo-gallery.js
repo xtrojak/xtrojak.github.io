@@ -4,7 +4,7 @@
  * Usage in a post:
  *   <link rel="stylesheet" href="{{ "/public/css/photo-gallery.css" | relative_url }}">
  *   <div class="photo-gallery">
- *     <img src="https://lh3.googleusercontent.com/pw/...=w1920-h1080" alt="…">
+ *     <img src="https://lh3.googleusercontent.com/pw/...=w1920-h1080" alt="…" data-caption="Optional caption">
  *     <img src="https://lh3.googleusercontent.com/pw/...=w1920-h1080" alt="…">
  *   </div>
  *   <script src="{{ "/public/js/photo-gallery.js" | relative_url }}"></script>
@@ -55,6 +55,7 @@
     root.innerHTML = [
       '<div class="photo-gallery-lightbox__top">',
       '  <span class="photo-gallery-lightbox__counter"></span>',
+      '  <span class="photo-gallery-lightbox__caption"></span>',
       '  <button type="button" class="photo-gallery-lightbox__close" aria-label="Close">×</button>',
       "</div>",
       '<div class="photo-gallery-lightbox__stage">',
@@ -119,7 +120,11 @@
     if (!sourceImgs.length) return;
 
     var items = sourceImgs.map(function (img) {
-      return { src: img.getAttribute("src"), alt: img.getAttribute("alt") || "" };
+      return {
+        src: img.getAttribute("src"),
+        alt: img.getAttribute("alt") || "",
+        caption: (img.getAttribute("data-caption") || "").trim()
+      };
     });
     sourceImgs.forEach(function (img) {
       img.remove();
@@ -146,8 +151,12 @@
     var meta = document.createElement("div");
     meta.className = "photo-gallery__meta";
     var counter = document.createElement("span");
+    counter.className = "photo-gallery__counter";
+    var caption = document.createElement("span");
+    caption.className = "photo-gallery__caption";
     var expand = createButton("photo-gallery__expand", "Fullscreen", "Open fullscreen");
     meta.appendChild(counter);
+    meta.appendChild(caption);
     meta.appendChild(expand);
 
     var thumbs = document.createElement("div");
@@ -175,12 +184,17 @@
       }
     }
 
+    function setCaption(el, text) {
+      el.textContent = text || "";
+    }
+
     function render() {
       var item = items[index];
       mainImg.src = withSize(item.src, FULL_SUFFIX);
       mainImg.alt = item.alt;
       counter.textContent = index + 1 + " / " + items.length;
-      stage.setAttribute("aria-label", item.alt || "Photo " + (index + 1));
+      setCaption(caption, item.caption);
+      stage.setAttribute("aria-label", item.caption || item.alt || "Photo " + (index + 1));
       syncThumbs(thumbButtons);
       if (activeLightbox === api) api.syncLightbox();
     }
@@ -211,6 +225,7 @@
         img.alt = item.alt;
         rootLb.querySelector(".photo-gallery-lightbox__counter").textContent =
           index + 1 + " / " + items.length;
+        setCaption(rootLb.querySelector(".photo-gallery-lightbox__caption"), item.caption);
         var lbThumbs = rootLb.querySelectorAll(
           ".photo-gallery-lightbox__thumbs .photo-gallery__thumb"
         );
