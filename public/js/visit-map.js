@@ -52,6 +52,20 @@
     return parts[2] + "." + parts[1] + "." + parts[0];
   }
 
+  function formatDateRange(startIso, endIso) {
+    if (!startIso) return formatDate(endIso);
+    if (!endIso) return formatDate(startIso);
+    var s = String(startIso).split("-");
+    var e = String(endIso).split("-");
+    if (s.length !== 3 || e.length !== 3) {
+      return formatDate(startIso) + " - " + formatDate(endIso);
+    }
+    if (s[0] === e[0]) {
+      return s[2] + "." + s[1] + ". - " + e[2] + "." + e[1] + "." + e[0];
+    }
+    return formatDate(startIso) + " - " + formatDate(endIso);
+  }
+
   function escapeHtml(value) {
     return String(value == null ? "" : value)
       .replace(/&/g, "&amp;")
@@ -77,17 +91,21 @@
   }
 
   function popupHtml(place) {
-    var date = formatDate(place.date);
-    var title = escapeHtml(place.title || (isStay(place) ? "Ubytovanie" : "Miesto"));
-    var href = escapeHtml(place.anchor || "#");
+    var stay = isStay(place);
+    var date = place.dateEnd
+      ? formatDateRange(place.date, place.dateEnd)
+      : formatDate(place.date);
+    var title = escapeHtml(place.title || (stay ? "Ubytovanie" : "Miesto"));
     var html = '<div class="visit-map__popup">';
     html += '<div class="visit-map__popup-title">' + title + "</div>";
     if (date) {
       html += '<div class="visit-map__popup-date">' + escapeHtml(date) + "</div>";
     }
-    if (place.anchor) {
+    if (!stay && place.anchor) {
       html +=
-        '<a class="visit-map__read" href="' + href + '">Čítať viac</a>';
+        '<a class="visit-map__read" href="' +
+        escapeHtml(place.anchor) +
+        '">Čítať viac</a>';
     }
     html += "</div>";
     return html;
