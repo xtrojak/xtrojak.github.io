@@ -111,6 +111,58 @@
   transform: scale(1.12);
 }
 
+.visit-map__marker--stay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5a6570;
+  border-radius: 6px;
+  color: #fff;
+  line-height: 0;
+}
+
+.visit-map__marker--stay.is-active {
+  background: #2f3840;
+  transform: scale(1.12);
+}
+
+.visit-map__leaflet-popup .leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+
+.visit-map__leaflet-popup .leaflet-popup-content {
+  margin: 0.65rem 0.8rem;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--vm-ink);
+}
+
+.visit-map__popup-title {
+  font-weight: 700;
+}
+
+.visit-map__popup-date {
+  color: var(--vm-muted);
+  font-size: 0.72rem;
+  margin-top: 0.15rem;
+}
+
+.visit-map__read {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: var(--vm-accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.visit-map__read:hover,
+.visit-map__read:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
 .leaflet-container a {
   color: var(--vm-accent);
 }
