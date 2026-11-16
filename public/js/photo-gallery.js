@@ -174,14 +174,24 @@
     root.appendChild(meta);
     root.appendChild(thumbs);
 
+    function scrollThumbIntoStrip(active) {
+      if (!active || !active.parentElement) return;
+      var parent = active.parentElement;
+      var parentRect = parent.getBoundingClientRect();
+      var activeRect = active.getBoundingClientRect();
+      // Only nudge the thumbs strip horizontally — never scroll the page.
+      if (activeRect.left < parentRect.left) {
+        parent.scrollLeft -= parentRect.left - activeRect.left + 4;
+      } else if (activeRect.right > parentRect.right) {
+        parent.scrollLeft += activeRect.right - parentRect.right + 4;
+      }
+    }
+
     function syncThumbs(list) {
       list.forEach(function (btn, i) {
         btn.classList.toggle("is-active", i === index);
       });
-      var active = list[index];
-      if (active && active.scrollIntoView) {
-        active.scrollIntoView({ behavior: "smooth", inline: "nearest", block: "nearest" });
-      }
+      scrollThumbIntoStrip(list[index]);
     }
 
     function setCaption(el, text) {
