@@ -15,7 +15,15 @@
   var FULL_SUFFIX = "=s2400";
 
   function withSize(url, suffix) {
-    var base = String(url).replace(/=[^=]*$/, "");
+    url = String(url);
+    // Only Google Photos hotlinks use the =w… / =s… size suffix.
+    if (
+      url.indexOf("googleusercontent.com") === -1 &&
+      url.indexOf("ggpht.com") === -1
+    ) {
+      return url;
+    }
+    var base = url.replace(/=[^=]*$/, "");
     return base + suffix;
   }
 
